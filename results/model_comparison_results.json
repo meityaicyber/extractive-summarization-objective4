@@ -1,37 +1,37 @@
 {
   "aggregates": {
-    "baseline": {
+    "gemma": {
       "rouge1_f1": {
-        "mean": 0.6146,
-        "std": 0.04420000000000002
+        "mean": 0.5856,
+        "std": 0.0
       },
       "rouge1_precision": {
-        "mean": 0.44510000000000005,
-        "std": 0.0461
+        "mean": 0.414,
+        "std": 0.0
       },
       "rouge1_recall": {
         "mean": 1.0,
         "std": 0.0
       },
       "rouge2_f1": {
-        "mean": 0.61165,
-        "std": 0.04444999999999999
+        "mean": 0.5824,
+        "std": 0.0
       },
       "rouge2_precision": {
-        "mean": 0.442,
-        "std": 0.04620000000000002
+        "mean": 0.4108,
+        "std": 0.0
       },
       "rouge2_recall": {
         "mean": 1.0,
         "std": 0.0
       },
       "rougeL_f1": {
-        "mean": 0.6146,
-        "std": 0.04420000000000002
+        "mean": 0.5856,
+        "std": 0.0
       },
       "rougeL_precision": {
-        "mean": 0.44510000000000005,
-        "std": 0.0461
+        "mean": 0.414,
+        "std": 0.0
       },
       "rougeL_recall": {
         "mean": 1.0,
@@ -42,8 +42,158 @@
         "std": 0.0
       },
       "compression": {
-        "mean": 0.9778,
-        "std": 0.0015000000000000013
+        "mean": 0.943,
+        "std": 0.0
+      },
+      "time_s": {
+        "mean": 17.78,
+        "std": 0.0
+      }
+    },
+    "qwen": {
+      "rouge1_f1": {
+        "mean": 0.6968,
+        "std": 0.0
+      },
+      "rouge1_precision": {
+        "mean": 0.5347,
+        "std": 0.0
+      },
+      "rouge1_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "rouge2_f1": {
+        "mean": 0.6941,
+        "std": 0.0
+      },
+      "rouge2_precision": {
+        "mean": 0.5315,
+        "std": 0.0
+      },
+      "rouge2_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "rougeL_f1": {
+        "mean": 0.6968,
+        "std": 0.0
+      },
+      "rougeL_precision": {
+        "mean": 0.5347,
+        "std": 0.0
+      },
+      "rougeL_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "high_finding_coverage": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "compression": {
+        "mean": 0.7306,
+        "std": 0.0
+      },
+      "time_s": {
+        "mean": 0.99,
+        "std": 0.0
+      }
+    },
+    "nemotron": {
+      "rouge1_f1": {
+        "mean": 0.626,
+        "std": 0.0
+      },
+      "rouge1_precision": {
+        "mean": 0.4556,
+        "std": 0.0
+      },
+      "rouge1_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "rouge2_f1": {
+        "mean": 0.623,
+        "std": 0.0
+      },
+      "rouge2_precision": {
+        "mean": 0.4524,
+        "std": 0.0
+      },
+      "rouge2_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "rougeL_f1": {
+        "mean": 0.626,
+        "std": 0.0
+      },
+      "rougeL_precision": {
+        "mean": 0.4556,
+        "std": 0.0
+      },
+      "rougeL_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "high_finding_coverage": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "compression": {
+        "mean": 0.8549,
+        "std": 0.0
+      },
+      "time_s": {
+        "mean": 8.25,
+        "std": 0.0
+      }
+    },
+    "baseline": {
+      "rouge1_f1": {
+        "mean": 0.5704,
+        "std": 0.0
+      },
+      "rouge1_precision": {
+        "mean": 0.399,
+        "std": 0.0
+      },
+      "rouge1_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "rouge2_f1": {
+        "mean": 0.5672,
+        "std": 0.0
+      },
+      "rouge2_precision": {
+        "mean": 0.3958,
+        "std": 0.0
+      },
+      "rouge2_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "rougeL_f1": {
+        "mean": 0.5704,
+        "std": 0.0
+      },
+      "rougeL_precision": {
+        "mean": 0.399,
+        "std": 0.0
+      },
+      "rougeL_recall": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "high_finding_coverage": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "compression": {
+        "mean": 0.9793,
+        "std": 0.0
       },
       "time_s": {
         "mean": 0.0,
@@ -52,6 +202,69 @@
     }
   },
   "details": {
+    "gemma": [
+      {
+        "model": "gemma",
+        "file": "1.json",
+        "words": 182,
+        "time_s": 17.78,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.5856,
+        "rouge1_precision": 0.414,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.5824,
+        "rouge2_precision": 0.4108,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.5856,
+        "rougeL_precision": 0.414,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.943,
+        "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. Removing unsafe -inline and unsafe-eval is not feasible at this stage due to significant dependency constraints and the risk of impacting existing application functionality. It is requested to grant an exception for this observation. We acknowledge the risk. Vulnerable and Outdated Components. Improper Error Handling.\n\nGrant an exception for this observation and proceed."
+      }
+    ],
+    "qwen": [
+      {
+        "model": "qwen",
+        "file": "1.json",
+        "words": 141,
+        "time_s": 0.99,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6968,
+        "rouge1_precision": 0.5347,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6941,
+        "rouge2_precision": 0.5315,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6968,
+        "rougeL_precision": 0.5347,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.7306,
+        "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. We acknowledge the risk.\n\nGrant an exception for this observation and proceed."
+      }
+    ],
+    "nemotron": [
+      {
+        "model": "nemotron",
+        "file": "1.json",
+        "words": 165,
+        "time_s": 8.25,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.626,
+        "rouge1_precision": 0.4556,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.623,
+        "rouge2_precision": 0.4524,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.626,
+        "rougeL_precision": 0.4556,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.8549,
+        "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. Removing unsafe -inline and unsafe-eval is not feasible at this stage due to significant dependency constraints and the risk of impacting existing application functionality. We acknowledge the risk.\n\nGrant an exception for this observation and proceed."
+      }
+    ],
     "baseline": [
       {
         "model": "baseline",
@@ -71,25 +284,6 @@
         "high_finding_coverage": 1.0,
         "compression": 0.9793,
         "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. Removing unsafe -inline and unsafe-eval is not feasible at this stage due to significant dependency constraints and the risk of impacting existing application functionality. It is requested to grant an exception for this observation. Significant dependency constraints and the risk of impacting existing application functionality. Vulnerable and Outdated Components. Improper Error Handling.\n\nGrant an exception for this observation and proceed."
-      },
-      {
-        "model": "baseline",
-        "file": "2.json",
-        "words": 165,
-        "time_s": 0.0,
-        "verbatim_verified": true,
-        "rouge1_f1": 0.6588,
-        "rouge1_precision": 0.4912,
-        "rouge1_recall": 1.0,
-        "rouge2_f1": 0.6561,
-        "rouge2_precision": 0.4882,
-        "rouge2_recall": 1.0,
-        "rougeL_f1": 0.6588,
-        "rougeL_precision": 0.4912,
-        "rougeL_recall": 1.0,
-        "high_finding_coverage": 1.0,
-        "compression": 0.9763,
-        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for PG Courses web application from 06 August 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIt is auto generated by some packages. Security Logging and Monitoring Failures were identified as open during the first level of testing and were subsequently closed after revalidation. The root cause is the implementation of cookie path without proper specification, leading to application misbehavior.\n\nAny framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
       }
     ]
   }

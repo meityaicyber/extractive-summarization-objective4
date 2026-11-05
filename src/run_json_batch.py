@@ -43,7 +43,7 @@ if SRC_DIR not in sys.path:
     sys.path.insert(0, SRC_DIR)
 
 from summarizer.json_report import extract_report_sentences, ReportDocument
-from summarizer.llm_client import GemmaClient, GemmaError
+from summarizer.llm_client import GemmaClient, GemmaError, OllamaClient, get_llm_client
 from summarizer.llm_summary import llm_extractive_paragraphs
 from summarizer.selection import heuristic_paragraph_summary, verify_verbatim_summary
 
@@ -118,11 +118,11 @@ def process_file(
         summary_text = ""
         info: Dict[str, Any] = {}
 
-        if method == "gemma" and client is not None:
+        if method in ("gemma", "qwen", "nemotron") and client is not None:
             try:
                 summary_text, selected, info = llm_extractive_paragraphs(client, doc, target_words=target_words)
             except Exception as e:
-                logger.warning("Gemma generation failed on %s (%s); falling back to heuristic.", stem, e)
+                logger.warning("%s generation failed on %s (%s); falling back to heuristic.", method, stem, e)
                 summary_text, selected = heuristic_paragraph_summary(doc, max_words=target_words)
                 info = {"n_paragraphs": len(summary_text.split("\n\n")), "fallback": True}
         else:
@@ -218,14 +218,24 @@ def main() -> None:
     ap.add_argument("--force", action="store_true", help="Recompute summaries that already exist")
     ap.add_argument(
         "--method",
-        choices=["gemma", "baseline"],
+        choices=["gemma", "qwen", "nemotron", "baseline"],
         default="gemma",
-        help="Summarization method: 'gemma' (local 31B model) or 'baseline' (fast heuristic)",
+        help="Summarization method: 'gemma' (local 31B), 'qwen' (Qwen-2.5-32B), 'nemotron' (Nemotron), or 'baseline' (fast heuristic)",
     )
     ap.add_argument(
         "--model_path",
         default=DEFAULT_MODEL_PATH,
         help="Folder containing local Gemma weights",
+    )
+    ap.add_argument(
+        "--qwen_name",
+        default="qwen2.5:32b",
+        help="Ollama model name for Qwen (default: qwen2.5:32b)",
+    )
+    ap.add_argument(
+        "--nemotron_name",
+        default="nemotron",
+        help="Ollama model name for Nemotron (default: nemotron)",
     )
     ap.add_argument(
         "--target_words",
@@ -265,8 +275,8 @@ def main() -> None:
 
     os.makedirs(args.out_dir, exist_ok=True)
 
-    # Initialize client if using Gemma
-    client: Optional[GemmaClient] = None
+    # Initialize client if using an LLM
+    client: Any = None
     if args.method == "gemma":
         print(f"Loading Gemma model from: {args.model_path} ...", flush=True)
         t_load = time.time()
@@ -275,6 +285,24 @@ def main() -> None:
             print(f"Gemma loaded successfully in {time.time() - t_load:.1f}s.\n", flush=True)
         except GemmaError as e:
             print(f"Warning: Could not load Gemma: {e}\nFalling back to baseline method.", flush=True)
+            args.method = "baseline"
+    elif args.method == "qwen":
+        print(f"Connecting to Qwen ({args.qwen_name}) ...", flush=True)
+        try:
+            client = OllamaClient(model_name=args.qwen_name)
+            client.ping()
+            print(f"Connected to Qwen successfully.\n", flush=True)
+        except Exception as e:
+            print(f"Warning: Could not connect to Qwen: {e}\nFalling back to baseline method.", flush=True)
+            args.method = "baseline"
+    elif args.method == "nemotron":
+        print(f"Connecting to Nemotron ({args.nemotron_name}) ...", flush=True)
+        try:
+            client = OllamaClient(model_name=args.nemotron_name)
+            client.ping()
+            print(f"Connected to Nemotron successfully.\n", flush=True)
+        except Exception as e:
+            print(f"Warning: Could not connect to Nemotron: {e}\nFalling back to baseline method.", flush=True)
             args.method = "baseline"
 
     total = len(files)
