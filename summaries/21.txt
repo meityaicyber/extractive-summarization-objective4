@@ -1,0 +1,5 @@
+As part of the Web Application Security Audit proposal, AKS IT’s Security Consultants conducted the security audit of the Matsya Odisha Portal web application from 10 June 2026 to 10 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.
+
+The login replay attack was identified as a high severity issue where an attacker could reuse valid session tokens to gain unauthorized access to the application. The client organization states that the identified vulnerabilities have already been patched in the Production environment and will continue to be addressed through regular patch updates and necessary security measures.
+
+The client organization states that the identified vulnerabilities have already been patched in the Production environment and will continue to be addressed through regular patch updates and necessary security measures.

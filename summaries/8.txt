@@ -1,0 +1,5 @@
+As part of the Web Services Security Audit proposal, AKS IT’s Security Consultants conducted the security audit of the EPFO API web services from 11 August 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.
+
+The web services lack essential security headers such as Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and others, which are recommended for production environments.
+
+Implement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server.

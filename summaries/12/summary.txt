@@ -1,0 +1,5 @@
+As part of the Web Application Security Audit proposal, AKS IT’s Security Consultants conducted the security audit of the Government Quarters Management System web application from 07 April 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.
+
+Insufficient Logging and Monitoring. Unnecessary HTTP Methods Enabled. Lack of Security Headers. Improper Input Validation. The server is not configured to hide version details in HTTP response headers, allowing attackers to gather information about the software stack. E- Tag disclosure.
+
+Implement essential security headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and ensure HTTP Only, Secure, and SameSite attributes on session cookies. Configure the web server and application to hide version details in HTTP response headers and disable server signature information.

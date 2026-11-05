@@ -1,0 +1,5 @@
+As part of the Web Application Security Audit proposal, AKS IT’s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Admin web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.
+
+Vulnerable and Outdated Components. Missing Cookie Attributes (Path) vulnerability was identified as an open issue during the security audit. Misbehaving application due to the implementation of cookie path.
+
+Upgrade any framework, library, and/or server running with the older version with the latest version, security plug-ins, and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server.

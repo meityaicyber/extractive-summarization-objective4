@@ -1,0 +1,5 @@
+Kalkin has been engaged by SMC Global Securities Ltd to undertake security testing against the https://uat-trade.smctradeonline.com web application. The Level 2 testing took place over the period from 24-07-2026 to 10-08-2026. During this period the application was analyzed and assessed using a combination of standard tools and utilities and the knowledge and experience of our technical team.
+
+The report attributes the issue to improper handling of sensitive information in cached client code, suggesting that data is not adequately protected when cached. The X-XSS-Protection header was not configured on the web server or application.
+
+Deploy the X-XSS-Protection header to mitigate XSS attacks.

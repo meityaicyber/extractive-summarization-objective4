@@ -1,0 +1,5 @@
+A high-level overview of the key audit findings and vulnerabilities. This section is for senior management to understand business risks. This section should include charts to represent the count of observations severity wise along with list of observations in tabular format as mentioned below.
+
+Improperly secured RDP services can reveal system information and increase the risk of brute-force attacks and unauthorized access, especially when Network Level Authentication (NLA) is not enabled.
+
+Restrict RDP access through firewalls or VPNs, enforce Network Level Authentication, use strong credentials, and keep systems updated to reduce the attack surface.

@@ -1,0 +1,5 @@
+As part of the Web Application Security Audit proposal, AKS IT’s Security Consultants conducted the security audit of the PRAGATI web application from 20 July 2026 to 10 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.
+
+Certain frameworks or templating engines dynamically generate inline scripts required for correct functionality and we have also implemented XSS protection headers to enhance security. They are in the process of migrating the application to an actively supported framework in stages to minimize operational disruption and ensure a smooth transition for users. Use of an outdated framework (CodeIgniter 3) that has reached End of Life (EOL).
+
+Continue migration to an actively supported framework in stages to eliminate the risk associated with vulnerable and outdated components.

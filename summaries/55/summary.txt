@@ -1,0 +1,3 @@
+As part of the Web Application Security Audit proposal, AKS IT’s Security Consultants conducted the security audit of the Internal Complaint Management System (ICMS) web application from 22 June 2026 to 06 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.
+
+If the exploitation of the vulnerability can result in complete takeover of the system, alteration/destruction of the data, disclosure of sensitive information.

@@ -1,0 +1,62 @@
+Extractive Summarization Run Report
+Method: gemma  Total files: 55
+OK: 55  Skipped: 0  Errors: 0
+Average length: 198.2 words
+
+File             Status     Paras    Words    Time (s)  
+-------------------------------------------------------
+1.json           ok         3        182      17.06     
+2.json           ok         3        165      13.60     
+3.json           ok         2        117      12.74     
+4.json           ok         3        248      6.73      
+5.json           ok         2        102      11.58     
+6.json           ok         3        151      5.09      
+7.json           ok         3        94       7.11      
+8.json           ok         3        117      7.21      
+9.json           ok         3        246      4.81      
+10.json          ok         3        204      6.88      
+11.json          ok         3        286      23.73     
+12.json          ok         3        161      4.97      
+13.json          ok         3        252      0.17      
+14.json          ok         3        317      0.06      
+15.json          ok         3        101      3.58      
+16.json          ok         3        170      14.49     
+17.json          ok         3        190      4.65      
+18.json          ok         3        168      5.81      
+19.json          ok         3        244      0.08      
+20.json          ok         3        202      7.64      
+21.json          ok         3        165      4.03      
+22.json          ok         3        262      7.67      
+23.json          ok         3        262      5.79      
+24.json          ok         3        313      8.26      
+25.json          ok         3        210      5.12      
+26.json          ok         3        207      4.32      
+27.json          ok         3        226      5.45      
+28.json          ok         3        205      4.86      
+29.json          ok         2        120      3.65      
+30.json          ok         3        217      11.50     
+31.json          ok         3        194      7.02      
+32.json          ok         3        161      4.29      
+33.json          ok         3        235      4.95      
+34.json          ok         3        198      4.37      
+35.json          ok         3        270      4.78      
+36.json          ok         2        104      3.70      
+37.json          ok         3        226      4.83      
+38.json          ok         2        84       6.93      
+39.json          ok         3        188      3.98      
+40.json          ok         3        149      7.89      
+41.json          ok         2        87       3.48      
+42.json          ok         3        321      13.30     
+43.json          ok         3        290      13.21     
+44.json          ok         3        161      5.15      
+45.json          ok         3        239      10.88     
+46.json          ok         3        294      17.05     
+47.json          ok         2        102      3.10      
+48.json          ok         3        258      23.05     
+49.json          ok         3        231      13.03     
+50.json          ok         3        239      4.94      
+51.json          ok         3        211      33.80     
+52.json          ok         3        177      5.89      
+53.json          ok         3        180      5.41      
+54.json          ok         3        294      18.14     
+55.json          ok         2        103      3.13      

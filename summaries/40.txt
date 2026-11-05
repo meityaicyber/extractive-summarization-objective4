@@ -1,0 +1,5 @@
+As part of the Web Application Security Audit proposal, AKS IT’s Security Consultants conducted the security audit of the Mentoring Program for IAS OFFICER web application from 14 July 2026 to 04 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.
+
+The SSL/TLS certificate supports CBC and weak cipher algorithms, which are considered insecure and pose a risk to confidentiality and integrity. The use of CBC and weak cipher algorithms in the SSL/TLS certificate can lead to confidentiality and integrity breaches, allowing attackers to decrypt or manipulate transmitted data. Lack of Security Headers.
+
+Implement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server.
