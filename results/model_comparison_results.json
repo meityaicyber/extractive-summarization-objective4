@@ -2,36 +2,36 @@
   "aggregates": {
     "gemma": {
       "rouge1_f1": {
-        "mean": 0.5856,
-        "std": 0.0
+        "mean": 0.68185,
+        "std": 0.11851540195265763
       },
       "rouge1_precision": {
-        "mean": 0.414,
-        "std": 0.0
+        "mean": 0.52998,
+        "std": 0.14163257958534822
       },
       "rouge1_recall": {
         "mean": 1.0,
         "std": 0.0
       },
       "rouge2_f1": {
-        "mean": 0.5824,
-        "std": 0.0
+        "mean": 0.6791600000000001,
+        "std": 0.11918394354945634
       },
       "rouge2_precision": {
-        "mean": 0.4108,
-        "std": 0.0
+        "mean": 0.5269499999999999,
+        "std": 0.14196470159867208
       },
       "rouge2_recall": {
         "mean": 1.0,
         "std": 0.0
       },
       "rougeL_f1": {
-        "mean": 0.5856,
-        "std": 0.0
+        "mean": 0.68185,
+        "std": 0.11851540195265763
       },
       "rougeL_precision": {
-        "mean": 0.414,
-        "std": 0.0
+        "mean": 0.52998,
+        "std": 0.14163257958534822
       },
       "rougeL_recall": {
         "mean": 1.0,
@@ -42,158 +42,158 @@
         "std": 0.0
       },
       "compression": {
-        "mean": 0.943,
-        "std": 0.0
+        "mean": 0.8939199999999999,
+        "std": 0.1335806333268412
       },
       "time_s": {
-        "mean": 17.78,
-        "std": 0.0
+        "mean": 14.474,
+        "std": 6.441972058306369
       }
     },
     "qwen": {
       "rouge1_f1": {
-        "mean": 0.6968,
-        "std": 0.0
+        "mean": 0.74238,
+        "std": 0.1721506015092599
       },
       "rouge1_precision": {
-        "mean": 0.5347,
-        "std": 0.0
+        "mean": 0.62515,
+        "std": 0.17807989920257705
       },
       "rouge1_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.93556,
+        "std": 0.19332
       },
       "rouge2_f1": {
-        "mean": 0.6941,
-        "std": 0.0
+        "mean": 0.72779,
+        "std": 0.20589684043229026
       },
       "rouge2_precision": {
-        "mean": 0.5315,
-        "std": 0.0
+        "mean": 0.61168,
+        "std": 0.2023651294072178
       },
       "rouge2_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.92045,
+        "std": 0.23864999999999997
       },
       "rougeL_f1": {
-        "mean": 0.6968,
-        "std": 0.0
+        "mean": 0.73483,
+        "std": 0.19183352183599192
       },
       "rougeL_precision": {
-        "mean": 0.5347,
-        "std": 0.0
+        "mean": 0.61859,
+        "std": 0.19199048127446317
       },
       "rougeL_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.92667,
+        "std": 0.21999
       },
       "high_finding_coverage": {
         "mean": 1.0,
         "std": 0.0
       },
       "compression": {
-        "mean": 0.7306,
-        "std": 0.0
+        "mean": 0.71722,
+        "std": 0.2103650531813685
       },
       "time_s": {
-        "mean": 0.99,
-        "std": 0.0
+        "mean": 2.0460000000000003,
+        "std": 1.8421954293722478
       }
     },
     "nemotron": {
       "rouge1_f1": {
-        "mean": 0.626,
-        "std": 0.0
+        "mean": 0.6886399999999999,
+        "std": 0.14267645355839204
       },
       "rouge1_precision": {
-        "mean": 0.4556,
-        "std": 0.0
+        "mean": 0.54646,
+        "std": 0.1460905623235122
       },
       "rouge1_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.95333,
+        "std": 0.14001
       },
       "rouge2_f1": {
-        "mean": 0.623,
-        "std": 0.0
+        "mean": 0.6812699999999999,
+        "std": 0.15549500988777742
       },
       "rouge2_precision": {
-        "mean": 0.4524,
-        "std": 0.0
+        "mean": 0.5399799999999999,
+        "std": 0.15394980220838222
       },
       "rouge2_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.9454499999999999,
+        "std": 0.16365
       },
       "rougeL_f1": {
-        "mean": 0.626,
-        "std": 0.0
+        "mean": 0.6872100000000001,
+        "std": 0.14616357583201092
       },
       "rougeL_precision": {
-        "mean": 0.4556,
-        "std": 0.0
+        "mean": 0.5454100000000001,
+        "std": 0.1482210541724758
       },
       "rougeL_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.9511099999999999,
+        "std": 0.14667
       },
       "high_finding_coverage": {
         "mean": 1.0,
         "std": 0.0
       },
       "compression": {
-        "mean": 0.8549,
-        "std": 0.0
+        "mean": 0.8475400000000001,
+        "std": 0.22211807760738433
       },
       "time_s": {
-        "mean": 8.25,
-        "std": 0.0
+        "mean": 6.672,
+        "std": 3.9169191975326734
       }
     },
     "baseline": {
       "rouge1_f1": {
-        "mean": 0.5704,
-        "std": 0.0
+        "mean": 0.6499399999999999,
+        "std": 0.12434993526335267
       },
       "rouge1_precision": {
-        "mean": 0.399,
-        "std": 0.0
+        "mean": 0.51044,
+        "std": 0.15682403004641857
       },
       "rouge1_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.96517,
+        "std": 0.07006639779523419
       },
       "rouge2_f1": {
-        "mean": 0.5672,
-        "std": 0.0
+        "mean": 0.6315500000000001,
+        "std": 0.12120116542343973
       },
       "rouge2_precision": {
-        "mean": 0.3958,
-        "std": 0.0
+        "mean": 0.49367,
+        "std": 0.14746350090785176
       },
       "rouge2_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.9465899999999999,
+        "std": 0.10684988020582897
       },
       "rougeL_f1": {
-        "mean": 0.5704,
-        "std": 0.0
+        "mean": 0.64302,
+        "std": 0.12072459401464145
       },
       "rougeL_precision": {
-        "mean": 0.399,
-        "std": 0.0
+        "mean": 0.50417,
+        "std": 0.1507165223192202
       },
       "rougeL_recall": {
-        "mean": 1.0,
-        "std": 0.0
+        "mean": 0.9573,
+        "std": 0.0859907553170688
       },
       "high_finding_coverage": {
         "mean": 1.0,
         "std": 0.0
       },
       "compression": {
-        "mean": 0.9793,
-        "std": 0.0
+        "mean": 0.8987400000000001,
+        "std": 0.11888811715222006
       },
       "time_s": {
         "mean": 0.0,
@@ -207,7 +207,7 @@
         "model": "gemma",
         "file": "1.json",
         "words": 182,
-        "time_s": 17.78,
+        "time_s": 25.92,
         "verbatim_verified": true,
         "rouge1_f1": 0.5856,
         "rouge1_precision": 0.414,
@@ -221,6 +221,177 @@
         "high_finding_coverage": 1.0,
         "compression": 0.943,
         "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. Removing unsafe -inline and unsafe-eval is not feasible at this stage due to significant dependency constraints and the risk of impacting existing application functionality. It is requested to grant an exception for this observation. We acknowledge the risk. Vulnerable and Outdated Components. Improper Error Handling.\n\nGrant an exception for this observation and proceed."
+      },
+      {
+        "model": "gemma",
+        "file": "2.json",
+        "words": 165,
+        "time_s": 19.74,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6588,
+        "rouge1_precision": 0.4912,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6561,
+        "rouge2_precision": 0.4882,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6588,
+        "rougeL_precision": 0.4912,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.9763,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for PG Courses web application from 06 August 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIt is auto generated by some packages. Security Logging and Monitoring Failures were identified as open during the first level of testing and were subsequently closed after revalidation. The root cause is the implementation of cookie path without proper specification, leading to application misbehavior.\n\nAny framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
+      },
+      {
+        "model": "gemma",
+        "file": "3.json",
+        "words": 117,
+        "time_s": 22.32,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.8517,
+        "rouge1_precision": 0.7417,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.8502,
+        "rouge2_precision": 0.7395,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.8517,
+        "rougeL_precision": 0.7417,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Candidate web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nVulnerable and Outdated Components. Security Logging and Monitoring Failures were identified as open during the initial assessment and subsequently closed after revalidation. Misbehaving application due to the implementation of cookie path."
+      },
+      {
+        "model": "gemma",
+        "file": "5.json",
+        "words": 102,
+        "time_s": 19.02,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.877,
+        "rouge1_precision": 0.781,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.8757,
+        "rouge2_precision": 0.7788,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.877,
+        "rougeL_precision": 0.781,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EVC Income Tax API Web Services from 04 August 2026 to 12 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the Web Services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIf the exploitation of the vulnerability can result in complete takeover of the system, alteration/destruction of the data, disclosure of sensitive information."
+      },
+      {
+        "model": "gemma",
+        "file": "6.json",
+        "words": 151,
+        "time_s": 8.38,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7206,
+        "rouge1_precision": 0.5633,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7184,
+        "rouge2_precision": 0.5605,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7206,
+        "rougeL_precision": 0.5633,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.9437,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Admin web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nVulnerable and Outdated Components. Missing Cookie Attributes (Path) vulnerability was identified as an open issue during the security audit. Misbehaving application due to the implementation of cookie path.\n\nUpgrade any framework, library, and/or server running with the older version with the latest version, security plug-ins, and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
+      },
+      {
+        "model": "gemma",
+        "file": "7.json",
+        "words": 94,
+        "time_s": 12.59,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6383,
+        "rouge1_precision": 0.4688,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6331,
+        "rouge2_precision": 0.4632,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6383,
+        "rougeL_precision": 0.4688,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.752,
+        "summary_text": "A high-level overview of the key audit findings and vulnerabilities. This section is for senior management to understand business risks. This section should include charts to represent the count of observations severity wise along with list of observations in tabular format as mentioned below.\n\nImproperly secured RDP services can reveal system information and increase the risk of brute-force attacks and unauthorized access, especially when Network Level Authentication (NLA) is not enabled.\n\nRestrict RDP access through firewalls or VPNs, enforce Network Level Authentication, use strong credentials, and keep systems updated to reduce the attack surface."
+      },
+      {
+        "model": "gemma",
+        "file": "8.json",
+        "words": 117,
+        "time_s": 12.21,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7729,
+        "rouge1_precision": 0.6299,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7707,
+        "rouge2_precision": 0.627,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7729,
+        "rougeL_precision": 0.6299,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EPFO API web services from 11 August 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe web services lack essential security headers such as Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and others, which are recommended for production environments.\n\nImplement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "gemma",
+        "file": "9.json",
+        "words": 246,
+        "time_s": 7.97,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.4836,
+        "rouge1_precision": 0.3189,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.4805,
+        "rouge2_precision": 0.3162,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.4836,
+        "rougeL_precision": 0.3189,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.6165,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the NERIST-AC-IN web application from 18 May 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe email address displayed on the website is intentionally published as part of the official public contact information for communication purposes. The reported observation is informational in nature and does not expose any sensitive system information, security configurations, or provide unauthorized access to the application. The purpose of publishing the email address is to provide a clear and accessible point of contact for end users. The finding is informational and does not expose any sensitive system information, security configurations, or provide unauthorized access to the application. The email address is intentionally published in its standard format to facilitate effective communication with users, and the CSP is configured to allow required functionality while maintaining requested restrictions.\n\nThe report states that the email address has been intentionally published in its standard format to facilitate effective communication with users, and that alternative obfuscation methods may reduce readability, accessibility, and user experience, potentially leading to communication difficulties. Implement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "gemma",
+        "file": "10.json",
+        "words": 204,
+        "time_s": 10.48,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.5714,
+        "rouge1_precision": 0.4,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.5686,
+        "rouge2_precision": 0.3973,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.5714,
+        "rougeL_precision": 0.4,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.726,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the National Informatics Centre, Scientist B Recruitment 2026(call letter module) web application from 03 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report, and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe issue requires extensive code changes across the application, and it is not feasible to incorporate all such changes immediately. The reported vulnerability pertains to the pre-production environment, which is not internet-facing and is used only for internal testing. Our application currently uses ASP.NET 4.6.1, for which Microsoft has ended security updates and we accept the risks associated for the same.\n\nProper implementation of HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. is recommended on the production server. The latest and stable TLS version deployment is suggested on the production server for further enhanced security. Any framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons."
+      },
+      {
+        "model": "gemma",
+        "file": "12.json",
+        "words": 161,
+        "time_s": 6.11,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6586,
+        "rouge1_precision": 0.491,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6559,
+        "rouge2_precision": 0.488,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6586,
+        "rougeL_precision": 0.491,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.9817,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the Government Quarters Management System web application from 07 April 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nInsufficient Logging and Monitoring. Unnecessary HTTP Methods Enabled. Lack of Security Headers. Improper Input Validation. The server is not configured to hide version details in HTTP response headers, allowing attackers to gather information about the software stack. E- Tag disclosure.\n\nImplement essential security headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and ensure HTTP Only, Secure, and SameSite attributes on session cookies. Configure the web server and application to hide version details in HTTP response headers and disable server signature information."
       }
     ],
     "qwen": [
@@ -228,7 +399,7 @@
         "model": "qwen",
         "file": "1.json",
         "words": 141,
-        "time_s": 0.99,
+        "time_s": 0.67,
         "verbatim_verified": true,
         "rouge1_f1": 0.6968,
         "rouge1_precision": 0.5347,
@@ -242,6 +413,177 @@
         "high_finding_coverage": 1.0,
         "compression": 0.7306,
         "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. We acknowledge the risk.\n\nGrant an exception for this observation and proceed."
+      },
+      {
+        "model": "qwen",
+        "file": "2.json",
+        "words": 148,
+        "time_s": 1.03,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7059,
+        "rouge1_precision": 0.5455,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7034,
+        "rouge2_precision": 0.5425,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7059,
+        "rougeL_precision": 0.5455,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.8757,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for PG Courses web application from 06 August 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nVulnerable and Outdated Components. It is auto generated by some packages. The root cause is the implementation of cookie path without proper specification, leading to application misbehavior.\n\nAny framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
+      },
+      {
+        "model": "qwen",
+        "file": "3.json",
+        "words": 90,
+        "time_s": 4.23,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.978,
+        "rouge1_precision": 0.957,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.9778,
+        "rouge2_precision": 0.9565,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.978,
+        "rougeL_precision": 0.957,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.7692,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Candidate web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nVulnerable and Outdated Components."
+      },
+      {
+        "model": "qwen",
+        "file": "5.json",
+        "words": 102,
+        "time_s": 0.79,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.877,
+        "rouge1_precision": 0.781,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.8757,
+        "rouge2_precision": 0.7788,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.877,
+        "rougeL_precision": 0.781,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EVC Income Tax API Web Services from 04 August 2026 to 12 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the Web Services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIf the exploitation of the vulnerability can result in complete takeover of the system, alteration/destruction of the data, disclosure of sensitive information."
+      },
+      {
+        "model": "qwen",
+        "file": "6.json",
+        "words": 109,
+        "time_s": 5.03,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.8683,
+        "rouge1_precision": 0.7672,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.867,
+        "rouge2_precision": 0.7652,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.8683,
+        "rougeL_precision": 0.7672,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.6813,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Admin web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nVulnerable and Outdated Components.\n\nUpgrade any framework, library, and/or server running with the older version with the latest version, security plug-ins, and/or add-ons."
+      },
+      {
+        "model": "qwen",
+        "file": "7.json",
+        "words": 60,
+        "time_s": 0.77,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.3019,
+        "rouge1_precision": 0.2623,
+        "rouge1_recall": 0.3556,
+        "rouge2_f1": 0.1731,
+        "rouge2_precision": 0.15,
+        "rouge2_recall": 0.2045,
+        "rougeL_f1": 0.2264,
+        "rougeL_precision": 0.1967,
+        "rougeL_recall": 0.2667,
+        "high_finding_coverage": 1.0,
+        "compression": 0.48,
+        "summary_text": "This section is for senior management to understand business risks.\n\nImproperly secured RDP services can reveal system information and increase the risk of brute-force attacks and unauthorized access, especially when Network Level Authentication (NLA) is not enabled.\n\nRestrict RDP access through firewalls or VPNs, enforce Network Level Authentication, use strong credentials, and keep systems updated to reduce the attack surface."
+      },
+      {
+        "model": "qwen",
+        "file": "8.json",
+        "words": 117,
+        "time_s": 0.63,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7729,
+        "rouge1_precision": 0.6299,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7707,
+        "rouge2_precision": 0.627,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7729,
+        "rougeL_precision": 0.6299,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EPFO API web services from 11 August 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe web services lack essential security headers such as Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and others, which are recommended for production environments.\n\nImplement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "qwen",
+        "file": "9.json",
+        "words": 118,
+        "time_s": 0.89,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7678,
+        "rouge1_precision": 0.6231,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7656,
+        "rouge2_precision": 0.6202,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7678,
+        "rougeL_precision": 0.6231,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.2957,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the NERIST-AC-IN web application from 18 May 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe report states that the web application lacks security headers such as Content Security Policy (CSP), X-XSS-Protection, and X-Frame-Options, which are recommended for production servers.\n\nImplement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "qwen",
+        "file": "10.json",
+        "words": 164,
+        "time_s": 1.2,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6667,
+        "rouge1_precision": 0.5,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6641,
+        "rouge2_precision": 0.4971,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6667,
+        "rougeL_precision": 0.5,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.5836,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the National Informatics Centre, Scientist B Recruitment 2026(call letter module) web application from 03 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report, and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe SSL/TLS certificate supports older versions, CBC and weak cipher algorithms. The application uses an outdated SSL/TLS certificate configuration that allows legacy protocols and weak cipher suites. Microsoft has ended security updates and no longer provides security patches for ASP.NET 4.6.1.\n\nThe latest and stable TLS version deployment is suggested on the production server for further enhanced security. Any framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons."
+      },
+      {
+        "model": "qwen",
+        "file": "12.json",
+        "words": 124,
+        "time_s": 5.22,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7885,
+        "rouge1_precision": 0.6508,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7864,
+        "rouge2_precision": 0.648,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7885,
+        "rougeL_precision": 0.6508,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.7561,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the Government Quarters Management System web application from 07 April 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nServer Banner Grabbing. The server is not configured to hide version details in HTTP response headers, allowing attackers to gather information about the software stack.\n\nConfigure the web server and application to hide version details in HTTP response headers and disable server signature information."
       }
     ],
     "nemotron": [
@@ -249,7 +591,7 @@
         "model": "nemotron",
         "file": "1.json",
         "words": 165,
-        "time_s": 8.25,
+        "time_s": 6.93,
         "verbatim_verified": true,
         "rouge1_f1": 0.626,
         "rouge1_precision": 0.4556,
@@ -263,6 +605,177 @@
         "high_finding_coverage": 1.0,
         "compression": 0.8549,
         "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. Removing unsafe -inline and unsafe-eval is not feasible at this stage due to significant dependency constraints and the risk of impacting existing application functionality. We acknowledge the risk.\n\nGrant an exception for this observation and proceed."
+      },
+      {
+        "model": "nemotron",
+        "file": "2.json",
+        "words": 165,
+        "time_s": 2.7,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6588,
+        "rouge1_precision": 0.4912,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6561,
+        "rouge2_precision": 0.4882,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6588,
+        "rougeL_precision": 0.4912,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.9763,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for PG Courses web application from 06 August 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIt is auto generated by some packages. Security Logging and Monitoring Failures were identified as open during the first level of testing and were subsequently closed after revalidation. The root cause is the implementation of cookie path without proper specification, leading to application misbehavior.\n\nAny framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
+      },
+      {
+        "model": "nemotron",
+        "file": "3.json",
+        "words": 117,
+        "time_s": 2.77,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.8517,
+        "rouge1_precision": 0.7417,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.8502,
+        "rouge2_precision": 0.7395,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.8517,
+        "rougeL_precision": 0.7417,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Candidate web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nVulnerable and Outdated Components. Security Logging and Monitoring Failures were identified as open during the initial assessment and subsequently closed after revalidation. Misbehaving application due to the implementation of cookie path."
+      },
+      {
+        "model": "nemotron",
+        "file": "5.json",
+        "words": 102,
+        "time_s": 5.36,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.877,
+        "rouge1_precision": 0.781,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.8757,
+        "rouge2_precision": 0.7788,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.877,
+        "rougeL_precision": 0.781,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EVC Income Tax API Web Services from 04 August 2026 to 12 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the Web Services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIf the exploitation of the vulnerability can result in complete takeover of the system, alteration/destruction of the data, disclosure of sensitive information."
+      },
+      {
+        "model": "nemotron",
+        "file": "6.json",
+        "words": 160,
+        "time_s": 13.98,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6953,
+        "rouge1_precision": 0.5329,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6929,
+        "rouge2_precision": 0.5301,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6953,
+        "rougeL_precision": 0.5329,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Admin web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nVulnerable and Outdated Components. Missing Cookie Attributes (Path) vulnerability was identified as an open issue during the security audit. Misbehaving application due to the implementation of cookie path. Misbehaving application due to the implementation of cookie path.\n\nUpgrade any framework, library, and/or server running with the older version with the latest version, security plug-ins, and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
+      },
+      {
+        "model": "nemotron",
+        "file": "7.json",
+        "words": 93,
+        "time_s": 3.71,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.3429,
+        "rouge1_precision": 0.2526,
+        "rouge1_recall": 0.5333,
+        "rouge2_f1": 0.2899,
+        "rouge2_precision": 0.2128,
+        "rouge2_recall": 0.4545,
+        "rougeL_f1": 0.3286,
+        "rougeL_precision": 0.2421,
+        "rougeL_recall": 0.5111,
+        "high_finding_coverage": 1.0,
+        "compression": 0.744,
+        "summary_text": "A high-level overview of the key audit findings and vulnerabilities. This section is for senior management to understand business risks.\n\nImproperly secured RDP services can reveal system information and increase the risk of brute-force attacks and unauthorized access, especially when Network Level Authentication (NLA) is not enabled. Restrict RDP access through firewalls or VPNs, enforce Network Level Authentication, use strong credentials, and keep systems updated to reduce the attack surface.\n\nRestrict RDP access through firewalls or VPNs, enforce Network Level Authentication, use strong credentials, and keep systems updated to reduce the attack surface."
+      },
+      {
+        "model": "nemotron",
+        "file": "8.json",
+        "words": 117,
+        "time_s": 11.42,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7729,
+        "rouge1_precision": 0.6299,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7707,
+        "rouge2_precision": 0.627,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7729,
+        "rougeL_precision": 0.6299,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EPFO API web services from 11 August 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe web services lack essential security headers such as Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and others, which are recommended for production environments.\n\nImplement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "nemotron",
+        "file": "9.json",
+        "words": 118,
+        "time_s": 1.73,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7678,
+        "rouge1_precision": 0.6231,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7656,
+        "rouge2_precision": 0.6202,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7678,
+        "rougeL_precision": 0.6231,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.2957,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the NERIST-AC-IN web application from 18 May 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe report states that the web application lacks security headers such as Content Security Policy (CSP), X-XSS-Protection, and X-Frame-Options, which are recommended for production servers.\n\nImplement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "nemotron",
+        "file": "10.json",
+        "words": 175,
+        "time_s": 8.86,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6354,
+        "rouge1_precision": 0.4656,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6327,
+        "rouge2_precision": 0.4628,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6354,
+        "rougeL_precision": 0.4656,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.6228,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the National Informatics Centre, Scientist B Recruitment 2026(call letter module) web application from 03 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report, and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe application uses an outdated SSL/TLS certificate configuration that allows legacy protocols and weak cipher suites. Our application currently uses ASP.NET 4.6.1, for which Microsoft has ended security updates and we accept the risks associated for the same. Microsoft has ended security updates and no longer provides security patches for ASP.NET 4.6.1.\n\nThe latest and stable TLS version deployment is suggested on the production server for further enhanced security. Any framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons."
+      },
+      {
+        "model": "nemotron",
+        "file": "12.json",
+        "words": 161,
+        "time_s": 9.26,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6586,
+        "rouge1_precision": 0.491,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6559,
+        "rouge2_precision": 0.488,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6586,
+        "rougeL_precision": 0.491,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.9817,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the Government Quarters Management System web application from 07 April 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nInsufficient Logging and Monitoring. Unnecessary HTTP Methods Enabled. Lack of Security Headers. Improper Input Validation. The server is not configured to hide version details in HTTP response headers, allowing attackers to gather information about the software stack. E- Tag disclosure.\n\nImplement essential security headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and ensure HTTP Only, Secure, and SameSite attributes on session cookies. Configure the web server and application to hide version details in HTTP response headers and disable server signature information."
       }
     ],
     "baseline": [
@@ -284,6 +797,177 @@
         "high_finding_coverage": 1.0,
         "compression": 0.9793,
         "summary_text": "As part of the Website Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the SBMG Dashboard Website from 27 July 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the website security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nDuring the final level Website security audit, the consultants of AKS IT Services Pvt. Ltd. revalidated the fixes implemented in order to mitigate the previously reported vulnerabilities in the in-scope website. This section of the report covers the current status of vulnerabilities that were discovered and reported during the course of the security audit. Removing unsafe -inline and unsafe-eval is not feasible at this stage due to significant dependency constraints and the risk of impacting existing application functionality. It is requested to grant an exception for this observation. Significant dependency constraints and the risk of impacting existing application functionality. Vulnerable and Outdated Components. Improper Error Handling.\n\nGrant an exception for this observation and proceed."
+      },
+      {
+        "model": "baseline",
+        "file": "2.json",
+        "words": 165,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6588,
+        "rouge1_precision": 0.4912,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6561,
+        "rouge2_precision": 0.4882,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6588,
+        "rougeL_precision": 0.4912,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.9763,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for PG Courses web application from 06 August 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIt is auto generated by some packages. Security Logging and Monitoring Failures were identified as open during the first level of testing and were subsequently closed after revalidation. The root cause is the implementation of cookie path without proper specification, leading to application misbehavior.\n\nAny framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
+      },
+      {
+        "model": "baseline",
+        "file": "3.json",
+        "words": 93,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7784,
+        "rouge1_precision": 0.75,
+        "rouge1_recall": 0.809,
+        "rouge2_f1": 0.6995,
+        "rouge2_precision": 0.6737,
+        "rouge2_recall": 0.7273,
+        "rougeL_f1": 0.7351,
+        "rougeL_precision": 0.7083,
+        "rougeL_recall": 0.764,
+        "high_finding_coverage": 1.0,
+        "compression": 0.7949,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Candidate web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices.\n\nVulnerable and Outdated Components. Security Logging and Monitoring Failures were identified as open during the initial assessment and subsequently closed after revalidation. Misbehaving application due to the implementation of cookie path."
+      },
+      {
+        "model": "baseline",
+        "file": "5.json",
+        "words": 102,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.877,
+        "rouge1_precision": 0.781,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.8757,
+        "rouge2_precision": 0.7788,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.877,
+        "rougeL_precision": 0.781,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EVC Income Tax API Web Services from 04 August 2026 to 12 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the Web Services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nIf the exploitation of the vulnerability can result in complete takeover of the system, alteration/destruction of the data, disclosure of sensitive information."
+      },
+      {
+        "model": "baseline",
+        "file": "6.json",
+        "words": 136,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6466,
+        "rouge1_precision": 0.5245,
+        "rouge1_recall": 0.8427,
+        "rouge2_f1": 0.5652,
+        "rouge2_precision": 0.4577,
+        "rouge2_recall": 0.7386,
+        "rougeL_f1": 0.6207,
+        "rougeL_precision": 0.5035,
+        "rougeL_recall": 0.809,
+        "high_finding_coverage": 1.0,
+        "compression": 0.85,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the OJEE Counselling 2026 for LE courses-Working Professionals-Integrated MBA - Admin web application from 06 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices.\n\nVulnerable and Outdated Components. Missing Cookie Attributes (Path) vulnerability was identified as an open issue during the security audit. Misbehaving application due to the implementation of cookie path. Misbehaving application due to the implementation of cookie path.\n\nUpgrade any framework, library, and/or server running with the older version with the latest version, security plug-ins, and/or add-ons. Implementation of Secure, HTTP Only and Same Site attributes on session cookies is recommended on the production server."
+      },
+      {
+        "model": "baseline",
+        "file": "7.json",
+        "words": 125,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.5202,
+        "rouge1_precision": 0.3516,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.5146,
+        "rouge2_precision": 0.3465,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.5202,
+        "rougeL_precision": 0.3516,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "A high-level overview of the key audit findings and vulnerabilities. This section is for senior management to understand business risks. This section should include charts to represent the count of observations severity wise along with list of observations in tabular format as mentioned below.\n\nImproperly secured RDP services can reveal system information and increase the risk of brute-force attacks and unauthorized access, especially when Network Level Authentication (NLA) is not enabled. Improperly secured RDP services can reveal system information and increase the risk of brute-force attacks and unauthorized access, especially when Network Level Authentication (NLA) is not enabled. Improperly secured RDP services.\n\nRestrict RDP access through firewalls or VPNs, enforce Network Level Authentication, use strong credentials, and keep systems updated to reduce the attack surface."
+      },
+      {
+        "model": "baseline",
+        "file": "8.json",
+        "words": 117,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.7729,
+        "rouge1_precision": 0.6299,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.7707,
+        "rouge2_precision": 0.627,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.7729,
+        "rougeL_precision": 0.6299,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 1.0,
+        "summary_text": "As part of the Web Services Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the EPFO API web services from 11 August 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web services security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe web services lack essential security headers such as Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and others, which are recommended for production environments.\n\nImplement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "baseline",
+        "file": "9.json",
+        "words": 271,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.4451,
+        "rouge1_precision": 0.2862,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.442,
+        "rouge2_precision": 0.2837,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.4451,
+        "rougeL_precision": 0.2862,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.6792,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the NERIST-AC-IN web application from 18 May 2026 to 11 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe report states that the web application lacks security headers such as Content Security Policy (CSP), X-XSS-Protection, and X-Frame-Options, which are recommended for production servers. The email address displayed on the website is intentionally published as part of the official public contact information for communication purposes. The reported observation is informational in nature and does not expose any sensitive system information, security configurations, or provide unauthorized access to the application. The purpose of publishing the email address is to provide a clear and accessible point of contact for end users. The finding is informational and does not expose any sensitive system information, security configurations, or provide unauthorized access to the application. The email address is intentionally published in its standard format to facilitate effective communication with users, and the CSP is configured to allow required functionality while maintaining requested restrictions.\n\nThe report states that the email address has been intentionally published in its standard format to facilitate effective communication with users, and that alternative obfuscation methods may reduce readability, accessibility, and user experience, potentially leading to communication difficulties. Implement HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. on the production server."
+      },
+      {
+        "model": "baseline",
+        "file": "10.json",
+        "words": 204,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.5714,
+        "rouge1_precision": 0.4,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.5686,
+        "rouge2_precision": 0.3973,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.5714,
+        "rougeL_precision": 0.4,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.726,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the National Informatics Centre, Scientist B Recruitment 2026(call letter module) web application from 03 August 2026 to 14 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report, and it is observed that all the previously reported vulnerabilities are mitigated.\n\nThe issue requires extensive code changes across the application, and it is not feasible to incorporate all such changes immediately. The reported vulnerability pertains to the pre-production environment, which is not internet-facing and is used only for internal testing. Our application currently uses ASP.NET 4.6.1, for which Microsoft has ended security updates and we accept the risks associated for the same.\n\nProper implementation of HTTP Security Headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, etc. is recommended on the production server. The latest and stable TLS version deployment is suggested on the production server for further enhanced security. Any framework, library and/or server running with the older version must be upgraded with the latest version, security plug-ins and/or add-ons."
+      },
+      {
+        "model": "baseline",
+        "file": "12.json",
+        "words": 161,
+        "time_s": 0.0,
+        "verbatim_verified": true,
+        "rouge1_f1": 0.6586,
+        "rouge1_precision": 0.491,
+        "rouge1_recall": 1.0,
+        "rouge2_f1": 0.6559,
+        "rouge2_precision": 0.488,
+        "rouge2_recall": 1.0,
+        "rougeL_f1": 0.6586,
+        "rougeL_precision": 0.491,
+        "rougeL_recall": 1.0,
+        "high_finding_coverage": 1.0,
+        "compression": 0.9817,
+        "summary_text": "As part of the Web Application Security Audit proposal, AKS IT\u2019s Security Consultants conducted the security audit of the Government Quarters Management System web application from 07 April 2026 to 13 August 2026. A grey box assessment was performed to identify the vulnerabilities defined by the CERT-In Guidelines, NIC Guidelines, OWASP standard and other best practices. This is the final level of the web application security audit report and it is observed that all the previously reported vulnerabilities are mitigated.\n\nInsufficient Logging and Monitoring. Unnecessary HTTP Methods Enabled. Lack of Security Headers. Improper Input Validation. The server is not configured to hide version details in HTTP response headers, allowing attackers to gather information about the software stack. E- Tag disclosure.\n\nImplement essential security headers like Content Security Policy (CSP), X-XSS-Protection, X-Frame-Options, and ensure HTTP Only, Secure, and SameSite attributes on session cookies. Configure the web server and application to hide version details in HTTP response headers and disable server signature information."
       }
     ]
   }
